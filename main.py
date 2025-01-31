@@ -27,9 +27,9 @@ from telegram.ext import (
 # ------------------------------------------------------------------------
 # 1) ЧТЕНИЕ TOKEN ИЗ ОКРУЖЕНИЯ
 # ------------------------------------------------------------------------
-BOT_TOKEN = os.getenv("token_py")
+BOT_TOKEN = os.getenv("token_hi")
 if not BOT_TOKEN:
-    raise ValueError("No token_py found in environment variables!")
+    raise ValueError("No token_hi found in environment variables!")
 
 
 # ------------------------------------------------------------------------
